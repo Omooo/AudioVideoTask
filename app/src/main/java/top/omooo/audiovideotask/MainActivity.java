@@ -11,6 +11,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import top.omooo.audiovideotask.task_1.DrawPictureActivity;
 import top.omooo.audiovideotask.task_2.AudioRecordActivity;
+import top.omooo.audiovideotask.task_3.PreviewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -42,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, AudioRecordActivity.class));
                 break;
             case R.id.btn_task_3:
+                startActivity(new Intent(this, PreviewActivity.class));
                 break;
             case R.id.btn_task_4:
                 break;
