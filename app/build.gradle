@@ -28,4 +28,7 @@ dependencies {
 
     implementation 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+
+    compile 'com.github.jokermonn:permissions4m:2.1.2-lib'
+    annotationProcessor 'com.github.jokermonn:permissions4m:2.1.2-processor'
 }

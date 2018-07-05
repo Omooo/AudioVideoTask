@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".task_1.DrawPictureActivity"
             android:hardwareAccelerated="false"/>
+        <activity android:name=".task_2.AudioActivity"/>
+        <activity android:name=".task_2.AudioRecordActivity"/>
     </application>
 
 </manifest>
