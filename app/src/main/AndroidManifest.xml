@@ -22,13 +22,17 @@
         </activity>
         <activity android:name=".task_1.DrawPictureActivity"
             android:hardwareAccelerated="false"/>
+
         <activity android:name=".task_2.AudioActivity"/>
         <activity android:name=".task_2.AudioRecordActivity"/>
+
         <activity android:name=".task_3.SurfacePreviewActivity"
                   android:theme="@style/FullScreenTheme"/>
         <activity android:name=".task_3.TexturePreviewActivity"
                   android:theme="@style/FullScreenTheme"/>
         <activity android:name=".task_3.PreviewActivity"/>
+
+        <activity android:name=".task_4.ExtractMuxerActivity"/>
     </application>
 
 </manifest>
