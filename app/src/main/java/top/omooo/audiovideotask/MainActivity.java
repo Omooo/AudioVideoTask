@@ -13,6 +13,7 @@ import top.omooo.audiovideotask.task_1.DrawPictureActivity;
 import top.omooo.audiovideotask.task_2.AudioRecordActivity;
 import top.omooo.audiovideotask.task_3.PreviewActivity;
 import top.omooo.audiovideotask.task_4.ExtractMuxerActivity;
+import top.omooo.audiovideotask.task_5.GLActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -50,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this, ExtractMuxerActivity.class));
                 break;
             case R.id.btn_task_5:
+                startActivity(new Intent(this, GLActivity.class));
                 break;
         }
     }
